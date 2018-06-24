@@ -1,0 +1,12 @@
+{
+    "name": "KOL",
+    "author": "M",
+    "version": "0.1.0",
+    "title": "Klaus Of Life",
+    "description": "Includes QOL",
+    "factorio_version": "0.16",
+    "dependencies":
+    [
+	    "base >= 0.16.0"
+    ]
+}
