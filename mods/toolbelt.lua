@@ -8,8 +8,8 @@ data:extend(
 		effects =
 		{
 			{
-				type = "quick-bar-count",
-				modifier = 1,
+				type = "character-inventory-slots-bonus",
+				modifier = 10,
 			}
 		},
 		prerequisites = {"toolbelt", "advanced-material-processing-2"},
@@ -18,9 +18,9 @@ data:extend(
 			count = 200,
 			ingredients =
 		{
-			{"science-pack-1", 1},
-			{"science-pack-2", 1},
-			{"science-pack-3", 1},
+			{"automation-science-pack", 1},
+			{"logistic-science-pack", 1},
+			{"chemical-science-pack", 1},
 			{"production-science-pack",1}
 		},
 		time = 45,
@@ -35,8 +35,8 @@ data:extend(
 		effects =
 		{
 			{
-				type = "quick-bar-count",
-				modifier = 1
+				type = "character-inventory-slots-bonus",
+				modifier = 10
 			}
 		},
 		prerequisites = {"toolbelt-2", "advanced-electronics-2"},
@@ -45,11 +45,11 @@ data:extend(
 			count = 400,
 			ingredients =
 			{
-				{"science-pack-1", 1},
-				{"science-pack-2", 1},
-				{"science-pack-3", 1},
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
 				{"production-science-pack", 1},
-				{"high-tech-science-pack", 1}
+				{"utility-science-pack", 1}
 			},
 			time = 40
 		},
